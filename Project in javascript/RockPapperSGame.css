@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.choices h2 {
+    margin-right: 10px;
+}
+
+.choice-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.choice-button:hover {
+    background-color: #2980b9;
+}
+
+#result-output-text {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Your existing CSS styles */
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.choice {
+    flex: 1;
+    text-align: center;
+}
+
+.choice h2 {
+    margin-bottom: 5px;
+}
+
+.choice p {
+    margin: 0;
+    font-size: 18px;
+}
